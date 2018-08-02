@@ -1,0 +1,14 @@
+.cardsContainer {
+    display: flex;
+}
+.cardsCollection{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+/*
+.cardsCollection::-webkit-scrollbar {
+    display: none;
+}
+*/
