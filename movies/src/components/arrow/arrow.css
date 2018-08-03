@@ -1,9 +1,12 @@
 .arrow {
-    width: 3vmin;
-    height: 40vmin;
+    width: 4vmin;
+    height: 25vmin;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.arrow:hover{
+    cursor:pointer;
 }
 .arrow-right {
     width: 0; 
@@ -11,6 +14,7 @@
     border-top: 2vmin solid transparent;
     border-bottom: 2vmin solid transparent;
     border-left: 2vmin solid green;
+    margin: 0 2vmin;
 }
 .arrow-left {
     width: 0; 
@@ -18,4 +22,5 @@
     border-top: 2vmin solid transparent;
     border-bottom: 2vmin solid transparent;
     border-right: 2vmin solid green;
+    margin: 0 2vmin;
 }

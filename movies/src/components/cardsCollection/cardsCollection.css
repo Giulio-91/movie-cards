@@ -1,14 +1,14 @@
 .cardsContainer {
     display: flex;
+    width: 100%
 }
 .cardsCollection{
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+    width: 100%;
 }
-/*
 .cardsCollection::-webkit-scrollbar {
     display: none;
 }
-*/

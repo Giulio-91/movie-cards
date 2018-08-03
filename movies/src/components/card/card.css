@@ -1,6 +1,7 @@
 .card{
-    width: 40vmin;
-    height: 40vmin;
+    /*width: 50vmin;*/
+    width: 35%;
+    height: 100%;
     background-color: #f8f8f8;
     margin: 1vmin;
     flex: 0 0 auto;

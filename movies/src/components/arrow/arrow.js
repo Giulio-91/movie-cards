@@ -5,7 +5,7 @@ export class Arrow extends Component {
 
     constructor(props) {
         super(props);
-        if(props.direction=='left'){
+        if(props.direction === 'left'){
             this.direction = 'arrow-left';
         } else {
             this.direction = 'arrow-right';
@@ -15,7 +15,7 @@ export class Arrow extends Component {
     render() {
         //
         return(
-            <div className="arrow">
+            <div className="arrow" onClick={this.props.onClick}>
                 <div className={this.direction}></div>
             </div>
         )

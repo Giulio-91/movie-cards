@@ -9,6 +9,7 @@ export class Card extends Component {
         //
         return(
             <div className="card" id={this.key}>
+                {this.props.value}
             </div>
         )
     }
